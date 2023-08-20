@@ -1,0 +1,3 @@
+https://eknaprasath.wordpress.com/2018/10/29/creating-custom-policy-for-iam-user-only-for-particular-s3-bucket/
+
+https://docs.databricks.com/administration-guide/cloud-configurations/aws/iam-roles.html

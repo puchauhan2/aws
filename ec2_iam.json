@@ -1,0 +1,27 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "ec2:StartInstances",
+                "ec2:StopInstances",
+                "ec2:RebootInstances"
+            ],
+            "Condition": {
+                "StringEquals": {
+                    "ec2:ResourceTag/Owner": "ekna"
+                }
+            },
+            "Resource": [
+                "arn:aws:ec2:us-east-1:088811122222:instance/*"
+            ],
+            "Effect": "Allow"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "ec2:Describe*",
+            "Resource": "*"
+        }
+    ]
+}
+
