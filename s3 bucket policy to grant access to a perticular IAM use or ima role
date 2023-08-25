@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1692950466506",
+    "Statement": [
+        {
+            "Sid": "Stmt1692950455692",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::188805026079:role/iam_for_ec2"
+            },
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::newtest13434"
+        }
+    ]
+}
